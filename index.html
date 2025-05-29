@@ -33,7 +33,7 @@
       const responseBox = document.getElementById("responseBox");
 
       try {
-        const response = await fetch("https://atharvapandeyy.app.n8n.cloud/webhook/mutualfund-chatbot", {
+        const response = await fetch("http://localhost:5678/webhook/mutualfund-chatbot", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
